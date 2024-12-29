@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html form example</title>
+    </head>
+    <body>
+        <!--example of a simple form-->
+        <form action="google.com" method="GET">
+            <!--for username-->
+            <label for="user">USERNAME</label>
+            <input type="text" id="user" name="user">
+<br>
+<!--for password-->
+            <label for="passw">PASSWORD</label>
+            <input type="password" id="passw" name="passw">
+<br>
+<!--for email-->
+<label for="mail">Email</label>
+<input type="email" id="mail" name="mail">
+<br>
+            <button type="submit">SUBMIT</button>
+        </form>
+
+        <!--checkbox form-->
+        <form>
+            <label>
+                <input type="checkbox" name="subscribe" value="news">
+                subscribe to us
+            </label>
+        </form>
+
+        <!--radio button-->
+        <form>
+            <p>choose your favourite food</p>
+            <label><input type="radio" name="food" value="ugali">ugali</label><br>
+            <label><input type="radio" name="food" value="wali">wali</label><br>
+            <label><input type="radio" name="food" value="chipsi">chipsi</label><br>
+        </form>
+
+        <!--numbers form-->
+
+        <form>
+            <label for="phone">enter any number</label>
+            <input type="number" id="phone" name="phone" min="1" max="100">
+        </form>
+
+        <!--file uploading-->
+
+        <form enctype="multipart/form-data">
+            <label for="my_file">upload</label>
+            <input type="file" id="my_file" name="my_file">
+        </form>
+    </body>
+</html>

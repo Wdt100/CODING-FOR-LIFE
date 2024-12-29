@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html form example</title>
+    </head>
+    <body>
+        <!--example of a simple form-->
+        <form action="will.html" enctype="multipart/form-data" method="POST">
+            <!--for username-->
+            <label for="user">USERNAME</label>
+            <input type="text" id="user" name="user">
+<br>
+<!--for password-->
+            <label for="passw">PASSWORD</label>
+            <input type="password" id="passw" name="passw">
+<br>
+<!--for email-->
+<label for="mail">Email</label>
+<input type="email" id="mail" name="mail">
+<br>
+            
+        
+
+        <!--checkbox form-->
+        
+            <label>
+                <input type="checkbox" name="subscribe" value="news">
+                subscribe to us
+            </label>
+       
+
+        <!--radio button-->
+        
+            <p>choose your favourite food</p>
+            <label><input type="radio" name="food" value="ugali">ugali</label><br>
+            <label><input type="radio" name="food" value="wali">wali</label><br>
+            <label><input type="radio" name="food" value="chipsi">chipsi</label><br>
+        
+
+        <!--numbers form-->
+
+       
+            <label for="phone">enter any number</label>
+            <input type="number" id="phone" name="phone" min="1" max="100">
+            <br>
+        
+
+        <!--file uploading-->
+
+        
+            <label for="my_file">upload</label>
+            <input type="file" id="my_file" name="my_file">
+
+            <br>
+       
+        <button type="submit">SUBMIT</button>
+        </form>
+    </body>
+</html>

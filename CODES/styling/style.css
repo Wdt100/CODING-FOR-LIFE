@@ -1,0 +1,31 @@
+/*class selector*/
+.abd {
+    background-color: blue;
+    text-align: center;
+}
+
+/*id selector*/
+#abc {
+    color: aqua;
+}
+#cde {
+    color: aqua;
+}
+#agh {
+    color: aqua;
+}
+
+/* universal selector */
+*{
+
+    background-color: aquamarine;
+}
+
+
+/*ways to embed scc to html code*/
+/*
+1. inline styling
+2.internal css styling
+3. external css styling
+*/
+
